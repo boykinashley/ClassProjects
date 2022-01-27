@@ -1,0 +1,19 @@
+/* NO classes or IDs */
+/* Please Make only World and Zebra Blue...need to use the direct parent child and carrot/greater than symbol " > " */
+section > h2{
+    color: blue;
+}
+/* Please Make only Zebra Purple....need to use the direct sibling and carrot/great than symbol ">" */
+section > h2 + h2 {
+    color: purple;
+}
+/* Please Make only Hufflepuff Gold....h2 with sibling that is h2 that is a direct child of article... add section to override hufflepuff to make 4 points of specifcity*/
+section article > h2 + h2{
+    color: gold;
+}
+/* Please keep Hufflepuff Gold and make ONLY Unicorn Gray...add section to override unicorn...3 points of specificity */
+section article > h2{
+    color: gray;
+}
+
+/* Need to review specificity in CSS, learn how to use */
